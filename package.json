@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bluebird": "^3.5.1",
+    "elevation-pr": "^1.4.0",
     "jest-cli": "^23.4.2",
     "jest-json-reporter": "^1.2.2",
     "react": "^16.4.1",
@@ -30,6 +31,7 @@
     "test": "react-scripts test --env=jsdom",
     "test-silent": "jest || exit 0",
     "eject": "react-scripts eject",
-    "tests": "tests"
+    "tests": "tests",
+    "review": "node node_modules/elevation-pr/index.js"
   }
 }
